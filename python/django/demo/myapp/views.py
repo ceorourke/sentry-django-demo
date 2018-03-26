@@ -36,5 +36,5 @@ class BadView(TemplateView):
         context['good_or_bad'] = 'Broken'
         context['body_text'] = 'This will never be shown.'
         if True:
-            raise Exception('Bad View Loaded')
+            raise Exception('Different But Also Bad View Loaded')
         return context
