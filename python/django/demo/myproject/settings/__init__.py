@@ -23,7 +23,7 @@ else:
 
 # After the other settings are loaded, build the config dict that Raven will use
 RAVEN_CONFIG = {
-    'dsn': MY_SENTRY_DSN,
+    'dsn': 'http://4a38eccc4c3747c689be59699d4bda4c:6c6b233b6fe7450187d8488a3a73d47d@dev.getsentry.net:8000/3',
     'release': '0.0.3',   # You can track different releases of your app in Sentry
                           # See https://docs.sentry.io/learn/releases/ for details
 }
